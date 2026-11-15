@@ -1,0 +1,105 @@
+{
+  "schema_version": 1,
+  "flowers": [
+    {
+      "id": "R01",
+      "name": "Rosa",
+      "color": "Rojo",
+      "stock": 80,
+      "price_cents": 150,
+      "minimum": 15
+    },
+    {
+      "id": "R02",
+      "name": "Rosa",
+      "color": "Blanco",
+      "stock": 60,
+      "price_cents": 140,
+      "minimum": 10
+    },
+    {
+      "id": "G01",
+      "name": "Girasol",
+      "color": "Amarillo",
+      "stock": 50,
+      "price_cents": 200,
+      "minimum": 10
+    },
+    {
+      "id": "T01",
+      "name": "Tulipán",
+      "color": "Rosado",
+      "stock": 35,
+      "price_cents": 230,
+      "minimum": 8
+    },
+    {
+      "id": "L01",
+      "name": "Lirio",
+      "color": "Blanco",
+      "stock": 45,
+      "price_cents": 220,
+      "minimum": 8
+    },
+    {
+      "id": "M01",
+      "name": "Margarita",
+      "color": "Blanco",
+      "stock": 100,
+      "price_cents": 90,
+      "minimum": 20
+    }
+  ],
+  "orders": [],
+  "bouquets": [
+    {
+      "id": "C01",
+      "name": "Romántico",
+      "size": "pequeno",
+      "items": [
+        {
+          "flower_id": "R01",
+          "quantity": 4
+        },
+        {
+          "flower_id": "R02",
+          "quantity": 2
+        }
+      ]
+    },
+    {
+      "id": "C02",
+      "name": "Primavera",
+      "size": "mediano",
+      "items": [
+        {
+          "flower_id": "G01",
+          "quantity": 5
+        },
+        {
+          "flower_id": "M01",
+          "quantity": 4
+        }
+      ]
+    },
+    {
+      "id": "C03",
+      "name": "Elegante",
+      "size": "grande",
+      "items": [
+        {
+          "flower_id": "T01",
+          "quantity": 8
+        },
+        {
+          "flower_id": "L01",
+          "quantity": 6
+        }
+      ]
+    }
+  ],
+  "next_id": 1,
+  "undo": [],
+  "redo": [],
+  "audit": []
+}
